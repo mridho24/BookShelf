@@ -25,16 +25,19 @@ Bookshelf API adalah sebuah RESTful API yang dibangun menggunakan Hapi Framework
 ## Instalasi
 
 1. Clone repository ini
+
    ```bash
-   git clone [URL_REPOSITORY]
+   git clone [https://github.com/mridho24/BookShelf.git]
    ```
 
 2. Masuk ke direktori proyek
+
    ```bash
    cd bookshelf-api
    ```
 
 3. Install dependencies
+
    ```bash
    npm install
    ```
@@ -49,6 +52,7 @@ Server akan berjalan pada `http://localhost:9000`
 ## Penggunaan API
 
 ### 1. Menambahkan Buku Baru
+
 - Method: POST
 - Endpoint: `/books`
 - Body Request:
@@ -66,6 +70,7 @@ Server akan berjalan pada `http://localhost:9000`
   ```
 
 ### 2. Mendapatkan Seluruh Buku
+
 - Method: GET
 - Endpoint: `/books`
 - Query Parameters (opsional):
@@ -74,21 +79,25 @@ Server akan berjalan pada `http://localhost:9000`
   - `finished`: Filter buku berdasarkan status selesai (0/1)
 
 ### 3. Mendapatkan Detail Buku
+
 - Method: GET
 - Endpoint: `/books/{bookId}`
 
 ### 4. Mengubah Data Buku
+
 - Method: PUT
 - Endpoint: `/books/{bookId}`
 - Body Request: (sama dengan menambahkan buku)
 
 ### 5. Menghapus Buku
+
 - Method: DELETE
 - Endpoint: `/books/{bookId}`
 
 ## Pengembangan
 
 Untuk mode pengembangan, gunakan perintah:
+
 ```bash
 npm run start-dev
 ```
