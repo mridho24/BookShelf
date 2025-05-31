@@ -116,10 +116,6 @@ bookshelf-api/
 └── README.md
 ```
 
-## Lisensi
-
-ISC
-
 ## Author
 
 [Muhammad Ridho]
